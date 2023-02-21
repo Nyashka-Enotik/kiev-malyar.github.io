@@ -429,7 +429,7 @@ html {
 
 /*header content*/
 .page-header {
-	background-image: linear-gradient(90deg, #f2f3f7 0%, #e5eff100 70%), url(/Andriy/img/home.webp);
+	background-image: linear-gradient(90deg, #f2f3f7 0%, #e5eff100 70%), url(https://nyashka-enotik.github.io/kiev-malyar.github.io/img/home.webp);
 	background-position: -115px 0px;
 	background-size: 130%, 240%;
 	background-repeat: no-repeat;
@@ -449,7 +449,7 @@ html {
 	list-style-type: none;
 }
 .list__item::before {
-	content:url("/Andriy/img/checkmark_checked_icon.svg");
+	content:url("https://nyashka-enotik.github.io/kiev-malyar.github.io/img/checkmark_checked_icon.svg");
 	position: absolute;
 }
 .list__paragraph{
@@ -464,7 +464,7 @@ html {
 }
 @media screen and (min-width: 1024px) {
 	.page-header {
-		background-image: linear-gradient(90deg, #f2f3f7 0%, #e5eff100 70%), url(/Andriy/img/home.webp);
+		background-image: linear-gradient(90deg, #f2f3f7 0%, #e5eff100 70%), url(https://nyashka-enotik.github.io/kiev-malyar.github.io/img/home.webp);
 		background-position: 50% 50%;
 		background-size: 100%;
 	}
@@ -530,13 +530,13 @@ html {
 }
 .page-service__td-icon--plastering {
 	background-color: white;
-	-webkit-mask: url(/Andriy/img/plastering.svg) no-repeat 50% 50%;
-	mask: url(/Andriy/img/plastering.svg) no-repeat 50% 50%;
+	-webkit-mask: url(https://nyashka-enotik.github.io/kiev-malyar.github.io/img/plastering.svg) no-repeat 50% 50%;
+	mask: url(https://nyashka-enotik.github.io/kiev-malyar.github.io/img/plastering.svg) no-repeat 50% 50%;
 }
 .page-service__td-icon--primer {
 	background-color: white;
-	-webkit-mask: url(/Andriy/img/primer.svg) no-repeat 50% 50%;
-	mask: url(/Andriy/img/primer.svg) no-repeat 50% 50%;
+	-webkit-mask: url(https://nyashka-enotik.github.io/kiev-malyar.github.io/img/primer.svg) no-repeat 50% 50%;
+	mask: url(https://nyashka-enotik.github.io/kiev-malyar.github.io/img/primer.svg) no-repeat 50% 50%;
 }
 @media screen and (min-width: 1024px) {
 	.page-service__table td {
@@ -916,10 +916,10 @@ html {
 	cursor: pointer;
 }
 .reviews-button-prev{
-	background: url(/Andriy/img/reviews-arrow-previous.svg) no-repeat;
+	background: url(https://nyashka-enotik.github.io/kiev-malyar.github.io/img/reviews-arrow-previous.svg) no-repeat;
 }
 .reviews-button-next{
-	background: url(/Andriy/img/reviews-arrow-next.svg) no-repeat;
+	background: url(https://nyashka-enotik.github.io/kiev-malyar.github.io/img/reviews-arrow-next.svg) no-repeat;
 	right: 0;
 }
 
