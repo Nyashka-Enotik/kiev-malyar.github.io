@@ -12,11 +12,12 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="Малярні роботи в Києві - професійний ремонт від команди фахівців">
   <meta property="og:description" content="Малярні роботи в Києві - це якісний ремонт та дизайн квартир, будинків та офісів від професіоналів своєї справи. Зверніться до нас за якісними послугами малярів!">
-  <meta property="og:image" content="/img/surrogate-mothers.webp">
+  <meta property="og:image" content="https://nyashka-enotik.github.io/kiev-malyar.github.io/img/logo.svg">
 
   <link rel="preload" href="/fonts/Comfortaa-Regular.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/fonts/Comfortaa-Bold.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="https://nyashka-enotik.github.io/kiev-malyar.github.io/style.css">
+  <link rel="preload" href="https://nyashka-enotik.github.io/kiev-malyar.github.io/img/logo.svg" as="image" type="image/webp">
+  <link rel="stylesheet" href="/Andriy/style.css">
   <link rel="preload" href="/fonts/Roboto-Regular.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/fonts/Roboto-Bold.woff2" as="font" type="font/woff2" crossorigin>
   <script src="https://cdn.jsdelivr.net/npm/swiper@9.0.1/swiper-bundle.min.js"></script>
@@ -29,7 +30,7 @@
 
 
 <header class="main-header">
- 
+
   <div class="main-header__top">
     <div class="container">
       <div class="main-header__logo">
@@ -65,19 +66,19 @@
               <a class="main-header__list-link" href="#service">Послуги</a>
             </li>
             <li class="main-header__list-item">
-              <a class="main-header__list-link" href="#advantages">Чому ми?</a>
+              <a class="main-header__list-link" href="#">Чому ми?</a>
             </li>
             <li class="main-header__list-item">
-              <a class="main-header__list-link" href="#step">Як ми працюємо</a>
+              <a class="main-header__list-link" href="#">Як ми працюємо</a>
             </li>
             <li class="main-header__list-item">
-              <a class="main-header__list-link" href="#portfolio">Портфоліо</a>
+              <a class="main-header__list-link" href="#">Портфоліо</a>
             </li>
             <li class="main-header__list-item">
-              <a class="main-header__list-link" href="#reviews">Відгуки</a>
+              <a class="main-header__list-link" href="#">Відгуки</a>
             </li>
             <li class="main-header__list-item">
-              <a class="main-header__list-link" href="#contacts">Контакти</a>
+              <a class="main-header__list-link" href="#">Контакти</a>
             </li>
           </ul>
           <a class="main-header__button main-button" href="#feedback">Залишити заявку</a>
@@ -133,102 +134,109 @@
             <td class="page-service__td page-service__td-price">від 20 грн</td>
           </tr>
           <tr class="page-service__row">
-            <td class="page-service__td page-service__td-icon page-service__td-icon--plastering"></td>
+            <td class="page-service__td page-service__td-icon page-service__td-icon--concretecontact"></td>
             <td class="page-service__td page-service__td-title">Бетоноконтакт</td>
             <td class="page-service__td page-service__td-price">від 35 грн</td>
           </tr>
           <tr class="page-service__row">
-            <td class="page-service__td page-service__td-icon page-service__td-icon--plastering"></td>
+            <td class="page-service__td page-service__td-icon page-service__td-icon--putty-start"></td>
             <td class="page-service__td page-service__td-title">Стартова шпаклівка</td>
             <td class="page-service__td page-service__td-price">від 90 грн</td>
           </tr>
           <tr class="page-service__row">
-            <td class="page-service__td page-service__td-icon page-service__td-icon--plastering"></td>
+            <td class="page-service__td page-service__td-icon page-service__td-icon--fiberglass"></td>
             <td class="page-service__td page-service__td-title">Поклейка склополотна</td>
             <td class="page-service__td page-service__td-price">від 75 грн/м2</td>
           </tr>
           <tr class="page-service__row">
-            <td class="page-service__td page-service__td-icon page-service__td-icon--plastering"></td>
+            <td class="page-service__td page-service__td-icon page-service__td-icon--putty-finish"></td>
             <td class="page-service__td page-service__td-title">Фінішка шпаклівка</td>
             <td class="page-service__td page-service__td-price">від 110 грн/м2</td>
           </tr>
           <tr class="page-service__row">
-            <td class="page-service__td page-service__td-icon page-service__td-icon--plastering"></td>
-            <td class="page-service__td page-service__td-title">Шліфування та дефектування під покраску</td>
+            <td class="page-service__td page-service__td-icon page-service__td-icon--painting"></td>
+            <td class="page-service__td page-service__td-title">Покраска</td>
+            <td class="page-service__td page-service__td-price">від 110 грн/м2</td>
+          </tr>
+          <tr class="page-service__row">
+            <td class="page-service__td page-service__td-icon page-service__td-icon--grinder"></td>
+            <td class="page-service__td page-service__td-title">Шліфування та детектування під покраску</td>
             <td class="page-service__td page-service__td-price">від 35 грн/м2</td>
           </tr>
           </tbody>
         </table>
+          <a class="page-service__button main-button" href="#feedback">Залишити заявку</a>
       </div>
     </section>
       <section class="page-advantages page-section" id="advantages">
           <div class="container">
               <h2 class="page-advantages__title page-title">Чому ми?</h2>
             <div class="page-advantages__items">
-              <div class="page-advantages__item" style="background-image:url(https://nyashka-enotik.github.io/kiev-malyar.github.io/img/comfort.svg)">
+              <div class="page-advantages__item" style="background-image:url(/Andriy/img/high-quality.svg)">
                 <h3 class="page-advantages__subtitle">Висока якість робіт</h3>
                 <p class="page-advantages__paragraph">Ми гарантуємо високу якість кожного замовлення та використовуємо тільки якісні матеріали.</p>
               </div>
-              <div class="page-advantages__item" style="background-image:url(https://nyashka-enotik.github.io/kiev-malyar.github.io/img/comfort.svg)">
+              <div class="page-advantages__item" style="background-image:url(https://nyashka-enotik.github.io/kiev-malyar.github.io/img/experience.svg)">
                 <h3 class="page-advantages__subtitle">Досвід та професіоналізм</h3>
                 <p class="page-advantages__paragraph">Наші фахівці мають багаторічний досвід у виконанні малярних робіт та знають свою справу.</p>
               </div>
-              <div class="page-advantages__item" style="background-image:url(https://nyashka-enotik.github.io/kiev-malyar.github.io/img/comfort.svg)">
+              <div class="page-advantages__item" style="background-image:url(https://nyashka-enotik.github.io/kiev-malyar.github.io/img/time.svg)">
                 <h3 class="page-advantages__subtitle">Швидкий та надійний сервіс</h3>
                 <p class="page-advantages__paragraph">Ми завжди дотримуємося термінів та гарантуємо якісне виконання робіт у найкоротші терміни.</p>
               </div>
-              <div class="page-advantages__item" style="background-image:url(https://nyashka-enotik.github.io/kiev-malyar.github.io/img/comfort.svg)">
-                <h3 class="page-advantages__subtitle">Індивідуальний підхід</h3>
-                <p class="page-advantages__paragraph">Ми завжди працюємо з кожним клієнтом індивідуально, щоб забезпечити найкращий результат.</p>
+              <div class="page-advantages__item" style="background-image:url(https://nyashka-enotik.github.io/kiev-malyar.github.io/img/price.svg)">
+                <h3 class="page-advantages__subtitle">Гнучкі ціни</h3>
+                <p class="page-advantages__paragraph">Ми пропонуємо гнучкі ціни, що дозволяє кожному клієнту знайти оптимальний варіант для своїх фінансових можливостей.</p>
               </div>
-              <div class="page-advantages__item" style="background-image:url(https://nyashka-enotik.github.io/kiev-malyar.github.io/img/comfort.svg)">
-                <h3 class="page-advantages__subtitle">Індивідуальний підхід</h3>
-                <p class="page-advantages__paragraph">Ми завжди працюємо з кожним клієнтом індивідуально, щоб забезпечити найкращий результат.</p>
+              <div class="page-advantages__item" style="background-image:url(https://nyashka-enotik.github.io/kiev-malyar.github.io/img/guarantee.svg)">
+                <h3 class="page-advantages__subtitle">Гарантія на роботи</h3>
+                <p class="page-advantages__paragraph">Ми надаємо гарантію на всі виконані роботи та завжди готові допомогти нашим клієнтам у разі будь-яких питань чи проблем.</p>
               </div>
-              <div class="page-advantages__item" style="background-image:url(https://nyashka-enotik.github.io/kiev-malyar.github.io/img/comfort.svg)">
+              <div class="page-advantages__item" style="background-image:url(https://nyashka-enotik.github.io/kiev-malyar.github.io/img/individual.svg)">
                 <h3 class="page-advantages__subtitle">Індивідуальний підхід</h3>
                 <p class="page-advantages__paragraph">Ми завжди працюємо з кожним клієнтом індивідуально, щоб забезпечити найкращий результат.</p>
               </div>
             </div>
+            <a class="page-advantages__button main-button" href="#feedback">Залишити заявку</a>
           </div>
       </section>
 
-    <section class="page-cost page-section" id="step">
+    <section class="page-steps page-section" id="cost">
       <div class="container">
         <h2 class="page-title">Як ми працюємо</h2>
-        <div class="steps-container">
-          <div class="step">
-            <div class="step-title">Підготовчі роботи</div>
-            <div class="step-description">Прибирання, шпаклювання, грунтування стін.</div>
+        <div class="page-steps_container">
+          <div class="page-step">
+            <div class="page-step__title">Ваша заявка</div>
+            <div class="page-step__description">Залиште завяку на сайті або зателефонуйте нам.</div>
           </div>
-          <div class="step">
-            <div class="step-title">Виконання робіт</div>
-            <div class="step-description">Нанесення фарби, штукатурка стін.</div>
+          <div class="page-step">
+            <div class="page-step__title">Узгодження</div>
+            <div class="page-step__description">Погодження списку робіт, замір приміщення, обговорення кошторису.</div>
           </div>
-          <div class="step">
-            <div class="step-title">Закінчення робіт</div>
-            <div class="step-description">Прибирання робочого місця та передача готової роботи клієнту.</div>
+          <div class="page-step">
+            <div class="page-step__title">Комплектування</div>
+            <div class="page-step__description">Вибір і узгодження матеріалів.</div>
           </div>
-          <div class="step">
-            <div class="step-title step-white">Закінчення робіт</div>
-            <div class="step-description step-white">Прибирання робочого місця та передача готової роботи клієнту.</div>
+          <div class="page-step">
+            <div class="page-step__title">Підготовчі роботи</div>
+            <div class="page-step__description">Прибирання, шпаклювання, грунтування стін.</div>
           </div>
-          <div class="step">
-            <div class="step-title step-white">Закінчення робіт</div>
-            <div class="step-description step-white">Прибирання робочого місця та передача готової роботи клієнту.</div>
+          <div class="page-step">
+            <div class="page-step__title">Виконання робіт</div>
+            <div class="page-step__description">Нанесення фарби, штукатурка стін.</div>
           </div>
-          <div class="step">
-            <div class="step-title step-white">Закінчення робіт</div>
-            <div class="step-description step-white">Прибирання робочого місця та передача готової роботи клієнту.</div>
+          <div class="page-step">
+            <div class="page-step__title">Закінчення робіт</div>
+            <div class="page-step__description">Прибирання об’єкту та передача його клієнту.</div>
           </div>
         </div>
-        <a class="page-cost__button main-button" href="#feedback">Я Хочу Стать Суррогатной Мамой</a>
+        <a class="page-step__button main-button" href="#feedback">Залишити заявку</a>
       </div>
 
     </section>
 
 
-    <section class="page-photo-section page-section" id="portfolio">
+    <section class="page-photo-section page-section">
       <div class="container">
         <h2 class="page-title">Портфоліо</h2>
         <div class="page-photo">
@@ -236,30 +244,29 @@
                 <img src="https://nyashka-enotik.github.io/kiev-malyar.github.io/img/photo-1.jpg" loading="lazy" decoding="async" alt="фото 1" class="page-photo__img">
             </div>
             <div class="page-photo__item">
-                <img src="https://nyashka-enotik.github.io/kiev-malyar.github.io/img/photo-2.jpg" loading="lazy" decoding="async" alt="фото 1" class="page-photo__img">
+                <img src="https://nyashka-enotik.github.io/kiev-malyar.github.io/img/photo-2.jpg" loading="lazy" decoding="async" alt="фото 2" class="page-photo__img">
             </div>
             <div class="page-photo__item">
-                <img src="https://nyashka-enotik.github.io/kiev-malyar.github.io/img/photo-3.jpg" loading="lazy" decoding="async" alt="фото 1" class="page-photo__img">
+                <img src="https://nyashka-enotik.github.io/kiev-malyar.github.io/img/photo-3.jpg" loading="lazy" decoding="async" alt="фото 3" class="page-photo__img">
             </div>
             <div class="page-photo__item">
-                <img src="https://nyashka-enotik.github.io/kiev-malyar.github.io/img/photo-4.jpg" loading="lazy" decoding="async" alt="фото 1" class="page-photo__img">
+                <img src="https://nyashka-enotik.github.io/kiev-malyar.github.io/img/photo-4.jpg" loading="lazy" decoding="async" alt="фото 4" class="page-photo__img">
             </div>
             <div class="page-photo__item">
-                <img src="https://nyashka-enotik.github.io/kiev-malyar.github.io/img/photo-5.jpg" loading="lazy" decoding="async" alt="фото 1" class="page-photo__img">
+                <img src="https://nyashka-enotik.github.io/kiev-malyar.github.io/img/photo-5.jpg" loading="lazy" decoding="async" alt="фото 5" class="page-photo__img">
             </div>
             <div class="page-photo__item">
-                <img src="https://nyashka-enotik.github.io/kiev-malyar.github.io/img/photo-6.jpg" loading="lazy" decoding="async" alt="фото 1" class="page-photo__img">
+                <img src="https://nyashka-enotik.github.io/kiev-malyar.github.io/img/photo-6.jpg" loading="lazy" decoding="async" alt="фото 6" class="page-photo__img">
             </div>
         </div>
       </div>
-
-        <a class="page-guarantee__button main-button" href="#feedback">Залишити заявку</a>
+        <a class="page-photo__button main-button" href="#feedback">Залишити заявку</a>
       </div>
     </section>
-    <section class="page-reviews page-section" id="reviews">
+    <section class="page-reviews page-section">
       <div class="container">
         <h2 class="page-title">Відгуки наших клієнтів</h2>
-       <div class="swiper">
+       <div class="swiper reviews-swiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <article class="page-reviews__slider-item">
@@ -271,22 +278,22 @@
             <div class="swiper-slide">
               <article class="page-reviews__slider-item">
                 <i class="fa fa-quote-left fa-2x pull-left tt_quote_transparency"></i>
-                <p class="page-reviews__text">Дуже задоволений роботою майстрів! Вони виконали ремонтні роботи у нашому будинку, і все вийшло дуже якісно та професійно. Рекомендую цю компанію всім, хто потребує таких послуг!</p>
-                <h3 class="page-reviews__title">Валерій</h3>
+                <p class="page-reviews__text">Я звернувся до майстрів для виконання штукатурних робіт у моєму будинку, і не можу бути більш задоволений результатом. Майстри були дуже уважні до деталей та дбайливі, і все було зроблено в строк. Вони також були дуже чистоплотні та організовані.</p>
+                <h3 class="page-reviews__title">Влад</h3>
               </article>
             </div>
             <div class="swiper-slide">
               <article class="page-reviews__slider-item">
                 <i class="fa fa-quote-left fa-2x pull-left tt_quote_transparency"></i>
-                <p class="page-reviews__text">Дуже задоволений роботою майстрів! Вони виконали ремонтні роботи у нашому будинку, і все вийшло дуже якісно та професійно. Рекомендую цю компанію всім, хто потребує таких послуг!</p>
-                <h3 class="page-reviews__title">Валерій</h3>
+                <p class="page-reviews__text">Ми замовляли штукатурні та малярні роботи у своїй новій квартирі. Майстри цієї компанії були дуже професійні та досвідчені, і все було виконано в строк. Кожен етап робіт був зроблений дуже уважно до деталей, що дозволило досягти максимальної якості. Я рекомендую цю компанію всім, хто шукає надійних та якісних майстрів!</p>
+                <h3 class="page-reviews__title">Світлана</h3>
               </article>
             </div>
             <div class="swiper-slide">
               <article class="page-reviews__slider-item">
                 <i class="fa fa-quote-left fa-2x pull-left tt_quote_transparency"></i>
-                <p class="page-reviews__text">Дуже задоволений роботою майстрів! Вони виконали ремонтні роботи у нашому будинку, і все вийшло дуже якісно та професійно. Рекомендую цю компанію всім, хто потребує таких послуг!</p>
-                <h3 class="page-reviews__title">Валерій</h3>
+                <p class="page-reviews__text">Я замовляв малярні роботи у своєму офісі, і все було виконано дуже якісно та професійно, все було зроблено в строк. Я рекомендую цю компанію всім, хто шукає надійних та досвідчених майстрів для малярних робіт.</p>
+                <h3 class="page-reviews__title">Олег</h3>
               </article>
             </div>
           </div>
@@ -301,35 +308,18 @@
         <form class="contact-form" method="POST" autocomplete="on" id="feedback">
           <fieldset class="contact-form-fieldset container">
             <legend class="contact-form-fieldset-title">Заявка на бесплатную консультацию</legend>
-            <input class="contact-form-fieldset-input" type="hidden" name="title" value="Реклама_консультация_ru">
-            <input class="contact-form-fieldset-input" type="text" name="form_name" minlength="2" maxlength="64" placeholder="Имя" required>
+            <input class="contact-form-fieldset-input" type="hidden" name="title" value="Реклама_консультація">
+            <input class="contact-form-fieldset-input" type="text" name="form_name" minlength="2" maxlength="64" placeholder="Ім'я" required>
             <input class="contact-form-fieldset-input last_name" type="text" name="last_name" value="" style="display: none;">
-            <input class="contact-form-fieldset-input tel" type="tel" name="phone" autocomplete="tel" pattern="^\+\d{3} \(\d{3}\) \d{2} \d{2} \d{2}$" placeholder="Телефон" minlength="6" maxlength="64" aria-label="Телефон " required>
-            <button class="contact-form-fieldset-submit submit-btn" type="submit" data-value="Отправить">Отправить</button>
+            <input class="contact-form-fieldset-input tel" type="tel" name="phone" autocomplete="tel" pattern="^\+\d{3} \(\d{3}\) \d{2} \d{2} \d{2}$" placeholder="Телефон" minlength="6" maxlength="64" aria-label="Телефон" required>
+            <button class="contact-form-fieldset-submit submit-btn" type="submit" data-value="Відправити">Відправити</button>
           </fieldset>
           <div class="form-window" hidden>
-            <div class="form-alert success" hidden>
-              <img src="/forms/icon-success.svg" width="50" height="50" draggable="false" alt="">
-              <p class="form-alert-title">Заявка отправлена!</p>
-              <p>Спасибо что уделили нам время. С вами скоро свяжется наш менеджер</p>
-              <p>VittoriaVita в социальных сетях:</p>
-              <div class="social_widget">
-                <a class="in" rel="noopener nofollow" target="_blank" href="https://www.instagram.com/vittoriavita.ge/" title="Instagram"></a>
-                <a class="fb" rel="noopener nofollow" target="_blank" href="https://www.facebook.com/VittoriaVita.ge/" title="Facebook"></a>
-              </div>
-              <button type="button" class="close-btn">Вернуться назад</button>
-            </div>
-
             <div class="form-alert error" hidden>
-              <img src="/forms/icon-error.svg" width="50" height="50" draggable="false" alt="">
-              <p class="form-alert-title">Произошла ошибка!</p>
-              <p>Перезагрузите страницу и попытайтесь отправить форму еще раз.</p>
-              <p>VittoriaVita в социальных сетях:</p>
-              <div class="social_widget">
-                <a class="in" rel="noopener nofollow" target="_blank" href="https://www.instagram.com/vittoriavita.ge/" title="Instagram"></a>
-                <a class="fb" rel="noopener nofollow" target="_blank" href="https://www.facebook.com/VittoriaVita.ge/" title="Facebook"></a>
-              </div>
-              <button type="button" class="close-btn">Вернуться назад</button>
+              <img src="https://nyashka-enotik.github.io/kiev-malyar.github.io/img/icon-error.svg" width="50" height="50" draggable="false" alt="">
+              <p class="form-alert-title">Сталася помилка!</p>
+              <p>Перезавантажте сторінку і спробуйте надіслати форму ще раз.</p>
+              <button type="button" class="close-btn">Повернутись назад</button>
             </div>
           </div>
         </form>
@@ -338,19 +328,19 @@
 
   </article>
 </main>
-<footer class="page-footer" id="contacts">
+<footer class="page-footer">
   <div class="container">
     <div class="page-footer__container">
       <div class="page-footer__column page-footer__column--one">
-        <img class="page-footer__logo" src="https://nyashka-enotik.github.io/kiev-malyar.github.io/img/logo.svg" alt="Vivita logo">
+        <img class="page-footer__logo" src="https://nyashka-enotik.github.io/kiev-malyar.github.io/logo.svg" alt="Vivita logo">
         <p class="page-footer__text">Наша компанія забезпечує якісні роботи з використанням найсучасніших технологій та матеріалів. Ми пропонуємо повний спектр послуг по ремонту різної складності. Звертайтеся до нас, і ми з радістю допоможемо Вам реалізувати будь-яку будівельну мрію!</p>
       </div>
       <div class="page-footer__column page-footer__column--two">
         <span class="page-footer__title">Звязатися з нами:</span>
-        <div class="page-footer__contanct">
+        <div class="page-footer__contact">
           <a class="page-footer__phone-link" href="tel:+38(066)7900865">+38 (066) 790 08 65</a>
-          <div class="main-header__insta">
-            <a class="main-header__insta-link" href="https://www.instagram.com/andrii_maliar_kiev/" target="_blank" rel="noopener nofollow">
+          <div class="page-footer__insta main-header__insta">
+            <a class="page-footer__insta-link main-header__insta-link" href="https://www.instagram.com/andrii_maliar_kiev/" target="_blank" rel="noopener nofollow">
               <i class="fa-brands fa-instagram"></i>
             </a>
           </div>
@@ -367,30 +357,29 @@
 <div class="buttonUp buttonUp__hide" title="Back to top">
   <i class="buttonUp__icon"></i>
 </div>
-<script async src="https://nyashka-enotik.github.io/kiev-malyar.github.io/main.js"></script>
+<script async src="/main.js"></script>
 <script>
-  function maxLengthCheck(object) {
-    if (object.value.length > object.max)
-      object.value = object.value.slice(0, object.max)
-  }
-  window.addEventListener("load", () => {
-    function setCursorPosition(pos, elem) {
-
-      elem.onclick = function () {
-        elem.setSelectionRange(elem.value.length,elem.value.length);
-      }
-    }
-
-    function mask(event) {
-      var matrix = "+995 (___) __ __ __",
-              i = 0,
-              def = matrix.replace(/\D/g, ""),
-              val = this.value.replace(/\D/g, "");
-      if (def.length >= val.length) val = def;
-      this.value = matrix.replace(/./g, function(a) {
-        return /[_\d]/.test(a) && i < val.length ? val.charAt(i++) : i >= val.length ? "" : a;
-
-      });
+	window.addEventListener("load", () => {
+		function setCursorPosition(pos, elem) {
+			elem.focus();
+			if (elem.setSelectionRange) elem.setSelectionRange(pos, pos);
+			else if (elem.createTextRange) {
+				var range = elem.createTextRange();
+				range.collapse(true);
+				range.moveEnd("character", pos);
+				range.moveStart("character", pos);
+				range.select();
+			}
+		}
+		function mask(event) {
+			var matrix = "+38 (___) ___ ____",
+				i = 0,
+				def = matrix.replace(/\D/g, ""),
+				val = this.value.replace(/\D/g, "");
+			if (def.length >= val.length) val = def;
+			this.value = matrix.replace(/./g, function(a) {
+				return /[_\d]/.test(a) && i < val.length ? val.charAt(i++) : i >= val.length ? "" : a;
+			});
       if (event.type == "blur") {
         if (this.value.length == 3) this.value = "";
       } else {
