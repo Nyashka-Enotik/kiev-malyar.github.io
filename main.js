@@ -166,7 +166,7 @@ for (const contactForm of document.getElementsByClassName('contact-form')) {
         const submitBtn = this.getElementsByClassName('submit-btn')[0];
         submitBtn.innerHTML = '<img src="/img/icon-loading.svg" width="44" height="10" alt="">';
 
-        const response = await fetch('/send.php', {
+        const response = await fetch('https://nyashka-enotik.github.io/kiev-malyar.github.io/send.php', {
             method: this.method,
             body: new FormData(this)
         }).catch(console.error);
@@ -189,7 +189,7 @@ for (const contactForm of document.getElementsByClassName('contact-form')) {
                 dataLayer.push(googleAnal[this.querySelector('[name="title"]').value || 'default']);
             }
 
-            window.location.href = '/thanks-you.html';
+            window.location.href = 'https://nyashka-enotik.github.io/kiev-malyar.github.io/thanks-you.html';
         } else {
             this.reset();
             submitBtn.innerHTML = submitBtn.dataset.value;
