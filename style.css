@@ -690,13 +690,7 @@ ul li::marker {
 	outline: none;
 	transition: border-color 0.15s;
 }
-.contact-form-fieldset-input:focus {
-	border-color: #fff;
-}
-.contact-form-fieldset-input::placeholder {
-	color: #bbb;
-	font-size: 14px;
-}
+
 .contact-form-fieldset-submit {
 	display: block;
 	width: 100%;
